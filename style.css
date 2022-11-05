@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  font-size: 70%;
+  font-family: Poppins;
+}
+nav {
+  background-color: rgb(36, 13, 13);
+  font-size: 15px;
+}
+ul {
+  flex-direction: flex-start;
+}
+nav a:last-child {
+  border: 2px solid #29d9d5;
+  margin: auto;
+  border-radius: 10px;
+  color: #29d9d5;
+  background-color: rgba(0, 0, 0, 0);
+}
+section {
+  width: 90%;
+  margin: auto;
+}
+a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+ul #image {
+  font-weight: bold;
+}
+.heading {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+}
+.heading #head {
+  color: blue;
+  margin-left: 10px;
+}
+.heading m {
+  margin-left: 10px;
+}
+.img {
+  border-radius: 5px;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+  display: block;
+  line-height: 1.4;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#img1 img,
+#img2 img,
+#img3 img,
+#img4 img,
+#img5 img,
+#img6 img {
+  height: 100%;
+  width: 100%;
+}
+.text {
+  padding: 0px 0px 0px 0px;
+  background-image: url("images/background_img.jpeg");
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+.text .subhead1 {
+  color: #29d9d5;
+}
+.text .subhead2 {
+  color: white;
+}
+footer {
+  background-color: black;
+}
